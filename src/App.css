@@ -1,434 +1,116 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
-
-
-body{
-  font-size: 16px;
-  background: white;
-  font-family: 'Open Sans', sans-serif;
-  overflow-x: hidden;
-  z-index: 1;
+.header-color {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
-.App {
+.landing-grid {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-}
-
-
-
-.App-header {
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: black;
-  top:4em;
-}
-.heading-background{
   position: fixed;
-  opacity: 0.05;
-  font-size: 25em;
-  left:-0.2em;
-  top:-0.5em;
-  z-index: -100;
-  color:#9352ae;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-header{
+
+.projects-grid {
   display: flex;
-  flex-direction: row;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  align-items: center;
+  padding-top: 2em;
 }
-header h1{
-font-size: 1em;
-font-weight: 400;  
-padding: 2em;
-margin-right: 50em;
-}
-nav{
-  position:fixed;
-  left:60em;
-  top:6em;
-z-index: 100;
-}
-nav li{
-  display: inline-block;
-  cursor: pointer;
 
-}
-nav li .link{
-  text-decoration: none;
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
   color: black;
-  padding:1em;
-  opacity: 0.5;
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-}
-li .link:hover{
-  opacity: 1;
-}
-.active{
-  color:black;
-  opacity: 1;
+  margin-bottom: 20px;
 }
 
-.header-title button{
-  background: black;
-  border: 0px;
-  padding: 1em 3em;
-  transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
 }
-.header-title button:hover{
-  opacity: 0.8;
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
 }
-.header-title button a{
-  font-family: 'Open Sans', sans-serif;
-  color:white;
-  text-decoration: none;
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
 }
-.header-title{
-  position: relative;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
-  text-align: left;
-  top:2em;
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
 }
-.about{
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }
-.about-content{
-  position: relative;
-  left:15em;
-}
-.about-content h1{
-  font-family: 'Montserrat', sans-serif;
+
+.social-links i {
+  color: white;
   font-size: 5em;
-  text-align: left;
+  padding: 8px;
 }
-.about-content p{
-  font-size: 1.3em;
-  text-align: left;
-  width: 37em;
-}
-.about img{
-  margin-left: 5em;
-}
-.work{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  left:15em;
-  top:8em;
-  align-items: flex-start;
-}
-.work .heading{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
-  text-align: left;
-}
-.work .work-content{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-gap: 2em;
-}
-
-.project img{
-width: 30em;  
-height: 30em;
-}
-.contact{
-  position: relative;
-  top:20em;
-  left:15em;
-  text-align: left;
-}
-.contact h1{
-    font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
-  text-align: left;
-}
-.amazing-color{
-  color:#9352ae;
-  opacity: 1;
-}
-
-.contact .email{
-  color:black;
-  font-size: 2em;
-}
-.contact li{
-  display: inline-block;
-  margin-top:0;
-  margin-bottom: 0;
-  margin-right: 1em;
-  margin-left: 0;
-}
-.contact li a{
-  text-decoration: none;
-  color:black;
-}
-.footer{
-  position: relative;
-  top:2em;
-  padding: 1em;
-}
-.footer a{
-  text-decoration: none;
-  color:#2c59fb;
-}
-
-
-/* SMARTPHONES PORTRAIT */
-@media only screen and (min-device-width: 320px) and (max-device-width : 480px){
-
-  body{
-    font-size: 6px;
-  }
-  header h1{
-font-size: 5em;  
-padding: 1em;
-margin-right: 0em;
-}
-
-.heading-background{
-  display: none;
-}
-nav{
-  display: none;
-}
-.header-title{
-  font-size: 3em;
-  text-align: left;
-  top:1em;
-  left:1em;
-}
-.about{position: relative;
-      display: flex;
-      top:-30em;
-}
-.about img{
-  display: none
-}
-.about-content{
-  left:2em;
-}
-.about-content p{
-  font-size: 3.5em;
-  text-align: left;
-  width: 300px;
-}
-
-.work{
-  left:2em;
-  top:2em;
-  align-items: flex-start;
-}
-.work .work-content{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 5em;
-}
-.project img{
-width: 45em;  
-height: 45em;
-}
-
-.contact{
-  top:15em;
-  left:2em;
-}
-.contact h1{
-  font-size: 4em;
-}
-.contact .email{
-  font-size: 3.5em;
-}
-
-.contact li{
-  display: block;
-  padding: 2em;
-}
-.contact li a{
-  font-size: 2.5em;
-}
-.footer{
-  top:4em;
-  padding: 1em;
-  font-size: 2em;
-}
-
-
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
-
-body{
-    font-size: 10px;
-  }
-header h1{
-font-size: 5em;  
-padding: 1em;
-margin-right: 0em;
-}
-
-nav{
-  display: none;
-}
-.header-title{
-  font-size: 3.6em;
-  text-align: left;
-  top:1em;
-  left:1em;
-}
-.about{position: relative;
-      display: flex;
-      top:-10em;
-}
-.about img{
-  display: none
-}
-.about-content{
-  left:6em;
-}
-.about-content p{
-  font-size: 3.5em;
-  text-align: left;
-  width: 700px;
-}
-
-.work{
-  left:6em;
-  top:4em;
-  align-items: flex-start;
-}
-.work .work-content{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5em;
-}
-.project img{
-width: 30em;  
-height: 30em;
-}
-
-.contact{
-  top:15em;
-  left:6em;
-}
-.contact h1{
-  font-size: 4em;
-}
-.contact .email{
-  font-size: 3.5em;
-}
-
-.contact li{
-  display: block;
-  padding: 2em;
-}
-.contact li a{
-  font-size: 2.5em;
-}
-.footer{
-  top:4em;
-  padding: 1em;
-  font-size: 2em;
-}
-
-}
-
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-/* Styles */
-
-
-
-body{
-    font-size: 20px;
-  }
-  header h1{
-    font-size: 3em;
-    margin-right: 25em;
-  }
-
-
-  nav{
-  left:60em;
-  top:12em;
-  z-index: 100;
-}
-nav li{
-   font-size: 3em;
-
-}
-.header-title{
-  font-size: 5em;
-  top:1em;
-  left:1em;
-}
-.about{position: relative;
-      display: flex;
-      top:-20em;
-}
-.about-content{
-  left:10em;
-}
-.about-content p{
-  font-size: 3.5em;
-  text-align: left;
-  width: 25em;
-}
-.about img{
-  margin-left: 1em;
-}
-
-.work{
-  left:10em;
-  top:4em;
-  align-items: flex-start;
-}
-.work .work-content{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.project img{
-width: 32em;  
-height: 32em;
-}
-
-.contact{
-  top:10em;
-  left:8em;
-}
-.contact h1{
-  font-size: 8em;
-}
-.contact .email{
-  font-size: 5em;
-}
-
-.contact li a{
-  font-size: 4em;
-  padding: 1em;
-}
-.footer{
-  top:4em;
-  padding: 1em;
-  font-size: 4em;
-}
-
-
-}
-
-

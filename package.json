@@ -1,5 +1,5 @@
 {
-  "homepage": "http://allalaspace.github.io/allalaspace.github.io",
+  "homepage": "https://github.com/allalaspace/allalaspace.github.io",
   "name": "myportfoliosite",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +17,16 @@
     "eject": "react-scripts eject",
 	"predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "src"
+  },
+  "bugs": {
+    "url": "https://github.com/allalaspace/allalaspace.github.io.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allalaspace/allalaspace.github.io.git"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1"

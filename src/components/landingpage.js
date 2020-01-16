@@ -4,46 +4,43 @@ import { Grid, Cell } from 'react-mdl';
 
 class Landing extends Component {
   render() {
-    return(
-      <div style={{width: '100%', margin: 'auto'}}>
+    return (
+      <div style={{ width: '100%', margin: 'auto' }}>
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
               alt="avatar"
               className="avatar-img"
-              />
+            />
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <p>Full Stack Developer</p>
 
-            <hr/>
+              <hr />
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+              <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+              <p>ASP NET | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
 
-        <div className="social-links">
 
-          {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
-          </a>
-
-          {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
-          </a>
-
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
-          </a>
-
-          {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
-          </a>
-
-        </div>
+              <Grid className="social-grid">
+                <Cell col={2}>
+                  {/* LinkedIn */}
+                  <div className="social-links">
+                    <a href="https://www.linkedin.com/in/mohamed-ali-boudich-90a44b55/" rel="noopener noreferrer" target="_blank">
+                      <i className="fa fa-linkedin-square" aria-hidden="true" />
+                    </a>
+                  </div>
+                </Cell>
+                <Cell col={2}>
+                  {/* Github */}
+                  <div className="social-links">
+                    <a href="https://github.com/allalaspace?tab=repositories" rel="noopener noreferrer" target="_blank">
+                      <i className="fa fa-github-square" aria-hidden="true" />
+                    </a>
+                  </div>
+                </Cell>
+              </Grid>
             </div>
           </Cell>
         </Grid>

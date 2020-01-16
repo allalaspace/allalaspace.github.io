@@ -13,19 +13,19 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
                 alt="avatar"
-                style={{height: '200px'}}
+                style={{height: '150px'}}
                  />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Paul Hanna</h2>
-            <h4 style={{color: 'grey'}}>Programmer</h4>
+            <h2 style={{paddingTop: '2em'}}>Mohamed Ali Boudich</h2>
+            <h4 style={{color: 'grey'}}>Développeur</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>18 Rue des bas rogers Puteaux , 92800</p>
             <h5>Phone</h5>
             <p>(123) 456-7890</p>
             <h5>Email</h5>

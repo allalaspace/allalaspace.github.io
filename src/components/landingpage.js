@@ -19,12 +19,12 @@ class Landing extends Component {
 
               <hr />
 
-              <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
-              <p>ASP NET | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+             
+              <p>ASP NET | HTML/CSS |Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
 
 
               <Grid className="social-grid">
-                <Cell col={2}>
+                <Cell col={6}>
                   {/* LinkedIn */}
                   <div className="social-links">
                     <a href="https://www.linkedin.com/in/mohamed-ali-boudich-90a44b55/" rel="noopener noreferrer" target="_blank">
@@ -32,7 +32,7 @@ class Landing extends Component {
                     </a>
                   </div>
                 </Cell>
-                <Cell col={2}>
+                <Cell col={6}>
                   {/* Github */}
                   <div className="social-links">
                     <a href="https://github.com/allalaspace?tab=repositories" rel="noopener noreferrer" target="_blank">

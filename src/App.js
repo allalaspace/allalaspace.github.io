@@ -14,7 +14,7 @@ class App extends Component {
               <Navigation style={{color: 'black' }}>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
+                <Link to="/projects">Tutorial</Link>
                 <Link to="/contact">Contact</Link>
               </Navigation>
             </Header>
@@ -23,7 +23,7 @@ class App extends Component {
               <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
+                <Link to="/projects">Tutorial</Link>
                 <Link to="/contact">Contact</Link>
               </Navigation>
             </Drawer>

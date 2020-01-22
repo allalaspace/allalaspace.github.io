@@ -75,6 +75,21 @@ class Resume extends Component {
               jobName="Allisone BPO, Consultant développeur .Net"
               jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
             />
+
+            <Experience
+              startYear={2014}
+              endYear={2016}
+              jobName="Allisone BPO, Consultant développeur .Net"
+              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            />
+
+            <Experience
+              startYear={2014}
+              endYear={2016}
+              jobName="Allisone BPO, Consultant développeur .Net"
+              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            />
+
             <hr style={{ borderTop: '3px solid #e22947' }} />
             <h2>Skills</h2>
             <Skills
@@ -93,8 +108,6 @@ class Resume extends Component {
               skill="React"
               progress={25}
             />
-
-
           </Cell>
         </Grid>
       </div>

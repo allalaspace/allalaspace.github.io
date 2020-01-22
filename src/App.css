@@ -73,7 +73,10 @@
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  /*padding-top: 5em;*/
+  border-radius: 50%;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 .banner-text {

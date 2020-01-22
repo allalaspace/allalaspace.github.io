@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import Logo from '../avatar.png';
 
 
 class Landing extends Component {
@@ -9,7 +10,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              src={Logo}
               alt="avatar"
               className="avatar-img"
             />
@@ -20,8 +21,6 @@ class Landing extends Component {
               <hr />
 
               <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
-              <p>ASP NET | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
-
 
               <Grid className="social-grid">
                 <Cell col={2}>

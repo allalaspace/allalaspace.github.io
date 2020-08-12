@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Logo from '../avatar.png';
+import Logo from '../me.png';
 
 
 class Landing extends Component {

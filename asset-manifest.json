@@ -1,7 +1,26 @@
 {
-  "main.css": "static/css/main.fba3a574.css",
-  "main.css.map": "static/css/main.fba3a574.css.map",
-  "main.js": "static/js/main.4fe1108f.js",
-  "main.js.map": "static/js/main.4fe1108f.js.map",
-  "static\\media\\avatar.png": "static/media/avatar.86587e35.png"
+  "files": {
+    "main.css": "/allalaspace.github.io/static/css/main.66e52bb4.chunk.css",
+    "main.js": "/allalaspace.github.io/static/js/main.d071ee1e.chunk.js",
+    "main.js.map": "/allalaspace.github.io/static/js/main.d071ee1e.chunk.js.map",
+    "runtime-main.js": "/allalaspace.github.io/static/js/runtime-main.c80454cc.js",
+    "runtime-main.js.map": "/allalaspace.github.io/static/js/runtime-main.c80454cc.js.map",
+    "static/css/2.e4346227.chunk.css": "/allalaspace.github.io/static/css/2.e4346227.chunk.css",
+    "static/js/2.02967f08.chunk.js": "/allalaspace.github.io/static/js/2.02967f08.chunk.js",
+    "static/js/2.02967f08.chunk.js.map": "/allalaspace.github.io/static/js/2.02967f08.chunk.js.map",
+    "index.html": "/allalaspace.github.io/index.html",
+    "precache-manifest.3c5289d672b87297fff0619b40920de0.js": "/allalaspace.github.io/precache-manifest.3c5289d672b87297fff0619b40920de0.js",
+    "service-worker.js": "/allalaspace.github.io/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/allalaspace.github.io/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.66e52bb4.chunk.css.map": "/allalaspace.github.io/static/css/main.66e52bb4.chunk.css.map",
+    "static/js/2.02967f08.chunk.js.LICENSE.txt": "/allalaspace.github.io/static/js/2.02967f08.chunk.js.LICENSE.txt",
+    "static/media/me.png": "/allalaspace.github.io/static/media/me.c5e7d7c6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c80454cc.js",
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.02967f08.chunk.js",
+    "static/css/main.66e52bb4.chunk.css",
+    "static/js/main.d071ee1e.chunk.js"
+  ]
 }

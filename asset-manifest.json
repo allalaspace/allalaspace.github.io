@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/allalaspace.github.io/static/css/main.66e52bb4.chunk.css",
-    "main.js": "/allalaspace.github.io/static/js/main.d071ee1e.chunk.js",
-    "main.js.map": "/allalaspace.github.io/static/js/main.d071ee1e.chunk.js.map",
-    "runtime-main.js": "/allalaspace.github.io/static/js/runtime-main.c80454cc.js",
-    "runtime-main.js.map": "/allalaspace.github.io/static/js/runtime-main.c80454cc.js.map",
-    "static/css/2.e4346227.chunk.css": "/allalaspace.github.io/static/css/2.e4346227.chunk.css",
-    "static/js/2.02967f08.chunk.js": "/allalaspace.github.io/static/js/2.02967f08.chunk.js",
-    "static/js/2.02967f08.chunk.js.map": "/allalaspace.github.io/static/js/2.02967f08.chunk.js.map",
-    "index.html": "/allalaspace.github.io/index.html",
-    "precache-manifest.3c5289d672b87297fff0619b40920de0.js": "/allalaspace.github.io/precache-manifest.3c5289d672b87297fff0619b40920de0.js",
-    "service-worker.js": "/allalaspace.github.io/service-worker.js",
-    "static/css/2.e4346227.chunk.css.map": "/allalaspace.github.io/static/css/2.e4346227.chunk.css.map",
-    "static/css/main.66e52bb4.chunk.css.map": "/allalaspace.github.io/static/css/main.66e52bb4.chunk.css.map",
-    "static/js/2.02967f08.chunk.js.LICENSE.txt": "/allalaspace.github.io/static/js/2.02967f08.chunk.js.LICENSE.txt",
-    "static/media/me.png": "/allalaspace.github.io/static/media/me.c5e7d7c6.png"
+    "main.css": "/portofolio/static/css/main.66e52bb4.chunk.css",
+    "main.js": "/portofolio/static/js/main.faa7b8eb.chunk.js",
+    "main.js.map": "/portofolio/static/js/main.faa7b8eb.chunk.js.map",
+    "runtime-main.js": "/portofolio/static/js/runtime-main.16074c42.js",
+    "runtime-main.js.map": "/portofolio/static/js/runtime-main.16074c42.js.map",
+    "static/css/2.e4346227.chunk.css": "/portofolio/static/css/2.e4346227.chunk.css",
+    "static/js/2.02967f08.chunk.js": "/portofolio/static/js/2.02967f08.chunk.js",
+    "static/js/2.02967f08.chunk.js.map": "/portofolio/static/js/2.02967f08.chunk.js.map",
+    "index.html": "/portofolio/index.html",
+    "precache-manifest.86d44b0367e07665e5742d9cff973e5e.js": "/portofolio/precache-manifest.86d44b0367e07665e5742d9cff973e5e.js",
+    "service-worker.js": "/portofolio/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/portofolio/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.66e52bb4.chunk.css.map": "/portofolio/static/css/main.66e52bb4.chunk.css.map",
+    "static/js/2.02967f08.chunk.js.LICENSE.txt": "/portofolio/static/js/2.02967f08.chunk.js.LICENSE.txt",
+    "static/media/me.png": "/portofolio/static/media/me.c5e7d7c6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c80454cc.js",
+    "static/js/runtime-main.16074c42.js",
     "static/css/2.e4346227.chunk.css",
     "static/js/2.02967f08.chunk.js",
     "static/css/main.66e52bb4.chunk.css",
-    "static/js/main.d071ee1e.chunk.js"
+    "static/js/main.faa7b8eb.chunk.js"
   ]
 }
